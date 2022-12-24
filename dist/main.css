@@ -1,0 +1,100 @@
+.container{
+
+ 
+}
+
+img{
+    text-align: center;
+    width: 100%;
+    height: 22rem;
+    background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center;   
+    background-image: URL("https://img.freepik.com/free-vector/summer-terrace-outdoor-city-cafe-coffeehouse-with-wooden-table-chairs-potted-plants-chalkboard-menu-cityscape-view-background-street-drinks-snacks-cafeteria-cartoon-illustration_107791-3552.jpg?w=1380&t=st=1671837378~exp=1671837978~hmac=901c1d0c4aa6ee3ea9be2f94a92b6df2d48fbc05fa500e4ef5c932d07d28b256");
+
+}
+
+#restaurantTitle{
+    text-align: center;
+    align-self: center;
+    font-size: 2.5rem;
+    color: black;
+
+}
+
+#menuBox{
+  text-align: center;
+  align-self: center;
+  font-size: 2.5rem;
+  color: black;
+  border: solid black 5px;
+  border-radius: 0.5rem;
+  height: 3rem;
+
+
+}
+
+
+/*Primitive CSS 
+/* 
+ /* Variables
+ *
+ * The majority of the configuration for the toolkit.
+ *
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+  
+  html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    background-color: aqua;
+  }
+  
+  /* Sections
+     ========================================================================== */
+  /**
+   * Remove the margin in all browsers.
+   */
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+  }
+  
+  
