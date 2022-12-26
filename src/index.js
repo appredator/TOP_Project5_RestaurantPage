@@ -13,11 +13,36 @@ import menuPageModule from './menu.js';
     const imageBanner = document.createElement("img");
     content.appendChild(imageBanner)
 
+    const buttonDiv = document.createElement("div");
+    buttonDiv.id = 'buttonDiv'
+    content.appendChild(buttonDiv)
+
+    const buttonOne = document.createElement("button");
+    buttonOne.id = 'home'
+    buttonOne.className = 'buttonBar'
+    buttonOne.innerHTML = "Home"
+    buttonDiv.appendChild(buttonOne)
+
+    const buttonTwo = document.createElement("button");
+    buttonTwo.id = 'menu'
+    buttonTwo.className = 'buttonBar'
+    buttonTwo.innerHTML = "Menu"
+    buttonDiv.appendChild(buttonTwo)
+
+    const buttonThree = document.createElement("button");
+    buttonThree.id = 'menu'
+    buttonThree.className = 'buttonBar'
+    buttonThree.innerHTML = "Contact"
+    buttonDiv.appendChild(buttonThree)
+
 
 }
 
 homePageModule();
-menuPageModule();
+
+const menuButton = document.querySelector("#menu")
+
+menuButton.addEventListener('click', menuPageModule);
 
 
 
