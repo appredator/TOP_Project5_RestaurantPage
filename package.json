@@ -1,5 +1,5 @@
 {
-  "name": "top_project5_restaurantpage",
+  "name": "npm-install-webpack-webpack-cli---save-dev",
   "version": "1.0.0",
   "description": "",
   "private": "true",
@@ -16,5 +16,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appredator/TOP_Project5_RestaurantPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appredator/TOP_Project5_RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/appredator/TOP_Project5_RestaurantPage#readme"
 }
