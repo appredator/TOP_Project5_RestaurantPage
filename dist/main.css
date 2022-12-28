@@ -21,16 +21,6 @@
     color: black;
 }
 
-#menuBox{
-  text-align: center;
-  align-self: center;
-  font-size: 2.5rem;
-  color: black;
-  border: solid black 5px;
-  border-radius: 0.5rem;
-  height: 3rem;
-}
-
 #buttonDiv{
   text-align: center;
 }
@@ -81,6 +71,52 @@ margin: 1rem;
   background-position: center;   
   background-image: URL("https://img.freepik.com/free-vector/realistic-ftuiys-juice-splash-burst-composition-with-spray-images-ripe-tropical-fruits-blank_1284-29364.jpg?w=740&t=st=1672172529~exp=1672173129~hmac=4516731cf426a2c90b42cbd030932012818679658ab4a7024ce33a1c0263a083");
 }
+
+/* Start Menu.js CSS */
+
+#menuBox{
+  text-align: center;
+  align-self: center;
+  font-size: 2.5rem;
+  margin: 2rem;
+  color: black;
+  border: 0.5rem rgb(226, 226, 27) solid;
+  border-radius: 0.5rem;
+  height: 20rem;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#menuItemHeader{
+  text-align: center;
+  align-self: center;
+  font-size: 2rem;
+  color: black;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+
+#menuItemText{
+  text-align: match-parent;
+  align-self: center;
+  font-size: 2rem;
+  color: black;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+
+/* #menuItemHeaderImageOne{
+  height: 5rem;
+  text-align: center;
+  width: 100%;
+  height: 60rem;
+ 
+  background-size:     cover;                  
+  background-repeat:   no-repeat;
+  background-position: center;   
+  background-image: URL("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.K61elwIR4TKTOCr9QPdOaQHaHa%26pid%3DApi&f=1&ipt=23a960e5624fa014f68402e26b5cb796104e2294a27632e0465562d6d4df4279&ipo=images");
+
+} */
 
 
 /*Primitive CSS 
