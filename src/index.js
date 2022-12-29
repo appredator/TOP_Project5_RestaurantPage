@@ -1,4 +1,4 @@
-// import contactPageModule from './contact.js';
+import contactPageModule from './contact.js';
 import menuPageModule from './menu.js';
 
 
@@ -31,7 +31,7 @@ import menuPageModule from './menu.js';
     buttonDiv.appendChild(buttonTwo)
 
     const buttonThree = document.createElement("button");
-    buttonThree.id = 'menu'
+    buttonThree.id = 'contact'
     buttonThree.className = 'buttonBar'
     buttonThree.innerHTML = "Contact"
     buttonDiv.appendChild(buttonThree)
@@ -68,6 +68,10 @@ homePageModule();
 const menuButton = document.querySelector("#menu")
 
 menuButton.addEventListener('click', menuPageModule);
+
+const contactButton = document.querySelector("#contact")
+
+contactButton.addEventListener('click', contactPageModule);
 
 
 
